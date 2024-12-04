@@ -1,0 +1,103 @@
+.exampleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.exampleText {
+  font-family: "Noto Naskh Arabic", "Traditional Arabic", Arial;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+
+/*.exempleWrapper {
+  display: flex;
+  padding: 5px;
+  background-color: #f8f9fa;
+  margin: 5px 0;
+}
+
+.exempleContainer {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.exempleText {
+  flex-grow: 1;
+  padding: 5px;
+}
+
+.buttonsContainer {
+  display: flex;
+  gap: 5px;
+}
+
+.xplContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 10px;
+  padding: 0px 5px 0px 0px;
+  background-color: #ced4da;
+  margin-bottom: 5px;
+}
+
+.label {
+  grid-column: 1;
+  grid-row: 1;
+  padding: 5px 8px;
+  border-radius: 4px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.buttonContainer {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+  align-items: center;
+}
+
+.exempleValueWrapper {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+  padding: 0px 10px 5px 10px;
+}
+
+.button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.editButton {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.editButton:hover {
+  background-color: #43a047;
+}
+
+.deleteButton {
+  background-color: #dc3545;
+  color: white;
+}
+
+.deleteButton:hover {
+  background-color: #c82333;
+}*/

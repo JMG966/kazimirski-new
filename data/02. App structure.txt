@@ -1,0 +1,89 @@
+/Users/jean-marcguyetand/Documents/kazimirski
+├── .babelrc
+├── .env
+├── index.html
+├── package-lock.json
+├── package.json
+├── webpack.config.js
+├── data/
+│   ├── 02. App structure.txt
+│   └── ...
+├── db/
+│   └── kazimirski.sqlite
+├── dist/
+│   ├── bundle.js
+│   ├── bundle.js.LICENSE.txt
+├── node_modules/
+│   └── ...
+└── src/
+    ├── components/
+    │   ├── Acknowledgements.js
+    │   ├── DatabaseManagement.js
+    │   ├── FloatingScrollButtons.js
+    │   ├── Introduction.js
+    │   ├── Layout.js
+    │   ├── Lexique.js
+    │   ├── DataEntry.js
+    │   ├── Quit.js
+    │   ├── References.js
+    │   ├── Tools.js
+    │   └── DataEntry/
+    │       ├── construction.js
+    │       ├── definition.js
+    │       ├── exemple.js
+    │       ├── item.js
+    │       ├── pagination.js
+    │       ├── racine.js
+    │       └── ModalForms/
+    │           ├── constructionModal.js
+    │           ├── definitionModal.js
+    │           ├── exempleModal.js
+    │           ├── itemModal.js
+    │           └── racineModal.js
+    ├── server/
+    │   ├── config/
+    │   │   └── config.js
+    │   ├── ipc/
+    │   │   ├── index.js
+    │   │   ├── racineHandlers.js
+    │   │   ├── 'itemHandlers.js'
+    │   │   ├── 'definitionHandlers.js'
+    │   │   ├── 'constructionHandlers.js'
+    │   │   └── 'exempleHandlers.js'
+    │   ├── models/
+    │   │   ├── Construction.js
+    │   │   ├── Definition.js
+    │   │   ├── Exemple.js
+    │   │   ├── index.js
+    │   │   ├── Item.js
+    │   │   └── Racine.js
+    │   ├── services/
+    │   │   ├── 'racineService.js'
+    │   │   ├── 'itemService.js'
+    │   │   ├── 'definitionService.js'
+    │   │   ├── 'constructionService.js'
+    │   │   └── 'exempleService.js'
+    ├── styles/
+    │   ├── App.module.css
+    │   ├── DataEntry.module.css
+    │   ├── global.css
+    │   ├── Layout.module.css
+    │   └── DataEntryStyles/
+    │       ├── construction.module.css
+    │       ├── definition.module.css
+    │       ├── exemple.module.css
+    │       ├── item.module.css
+    │       ├── FloatingScrollButtons.module.css
+    │       ├── pagination.module.css
+    │       ├── racine.module.css
+    │       └── ModalFormStyles/
+    │           ├── constructionModal.module.css
+    │           ├── definitionModal.module.css
+    │           ├── exempleModal.module.css
+    │           ├── itemModal.module.css
+    │           └── racineModal.module.css
+    └── utils/
+        ├── arabicUtils.js
+        ├── constants.js
+        ├── crudOperations.js
+        └── viewportManager.js

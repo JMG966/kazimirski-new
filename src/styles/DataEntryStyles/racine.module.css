@@ -1,0 +1,81 @@
+.racineContainer {
+  width: 100%;
+}
+
+.racineHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.racineGrid {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  gap: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.itemsContainer {
+  margin-top: 10px;
+}
+
+/**.racineWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.racineContainer {
+  align-items: center;
+}
+
+.racineTopContainer {
+  top: var(--pagination-height);
+  z-index: 90;
+  background-color: rgb(210, 228, 239);
+  z-index: 90;
+  padding:10px;
+}
+
+.racine {
+  font-size: 44px;
+  font-family: "Noto Naskh Arabic", "Traditional Arabic", Arial;
+}
+
+.racineGrid {
+  display: grid;
+  grid-template:
+    "R1 R2 R3 R4 R5 R6 R7 . Seq1 Seq2 Seq3 Seq4 Seq5 Seq6"
+    "r1 r2 r3 r4 r5 r6 r7 . seq1 seq2 seq3 seq4 seq5 seq6";
+  grid-template-columns: repeat(14, auto);
+  gap: 5px;
+  align-items: center;
+  margin-bottom: 10px;
+}**/
+
+/*.itemsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+ Grid labels and values 
+[class*="Label"] {
+  font-weight: bold;
+  text-align: right;
+}
+
+[class*="Value"] {
+  font-family: 'Amiri', serif;
+  text-align: left;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}*/

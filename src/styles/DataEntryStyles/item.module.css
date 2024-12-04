@@ -1,0 +1,116 @@
+.itemWrapper {
+  margin-bottom: 10px;
+}
+
+.itemHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.itemContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.row1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.row2 {
+  margin-top: 5px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.definitionsContainer {
+  padding: 10px;
+}
+
+/*.itemWrapper {
+  position: relative;
+  background-color: #e9ecef;
+}
+
+.itemWrapper:focus {
+  outline: 2px solid #4CAF50;
+  background-color: #f8f9fa;
+}
+
+.itemTopContainer {
+  z-index: 998;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #e9ecef;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: top 0.3s ease, background-color 0.3s ease;
+}
+
+.itemContainer {
+  flex-grow: 1;
+}
+
+.row1 {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.item {
+  font-size: 30px;
+}
+
+.translititem {
+  font-style: italic;
+}
+
+.formcat {
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.xscheme {
+  font-style: italic;
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.xschemeLabel {
+  font-style: italic;
+  font-size: 12px;
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.row2 {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+}
+
+.itemScrollableContent {
+  padding: 10px;
+}
+
+.definitionsContainer {
+  margin-top: 10px;
+}
+
+.formcatBold {
+  font-weight: bold;
+}
+*/

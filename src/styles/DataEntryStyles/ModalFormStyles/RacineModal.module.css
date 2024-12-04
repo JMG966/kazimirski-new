@@ -1,0 +1,113 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+
+.modalContent {
+  background-color: white;
+  border-radius: 5px;
+  width: 300px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.modalHeader {
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.modalBody {
+  padding: 20px 40px;
+}
+
+.modalFooter {
+  padding: 10px 20px;
+  background-color: #2c3e50;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.formGroup input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.rContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.rField {
+  flex: 0 0 30px;  /* Reduced from 40px */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rField label {
+  margin-bottom: 5px;
+}
+
+.rField input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.semiConsonantSelect {
+  margin-top: 5px;
+  width: 100%;
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submitButton, .cancelButton {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.submitButton {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.cancelButton {
+  background-color: #f44336;
+  color: white;
+}

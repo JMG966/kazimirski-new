@@ -1,0 +1,109 @@
+.paginationWrapper {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+
+.racineDisplay {
+  display: flex;
+  align-items: center;
+  font-size: 44px;
+  font-family: "Noto Naskh Arabic", "Traditional Arabic", Arial;
+}
+
+.navigationControls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.navigationControlsButtons:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background-color: #ccc;
+}
+
+.searchControls {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.searchGroup {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.searchInput {
+  width: 150px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  direction: rtl;
+  font-size: 20px;
+  font-family: "Noto Naskh Arabic", "Traditional Arabic", Arial;
+}
+
+/*.paginationContainer {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+
+.racineContainer {
+  align-items: center;
+}
+
+.racineTopContainer {
+  top: var(--pagination-height);
+  z-index: 90;
+}
+
+.racine {
+  font-size: 44px;
+  font-family: "Noto Naskh Arabic", "Traditional Arabic", Arial;
+}
+
+.navigationControlsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.navigationControlsButtons:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background-color: #ccc;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.searchGroup {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.searchInput {
+  width: 150px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  direction: rtl;
+  font-size: 20px;
+  font-family: "Noto Naskh Arabic", "Traditional Arabic", Arial;
+}*/
